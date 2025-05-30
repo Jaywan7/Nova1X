@@ -1,0 +1,42 @@
+
+NOVA SYSTEM – DEPENDENCY MAP (TEXT FORM)
+
+1. nova_core_base_final.zip
+   ├── boot_init.py
+   ├── runtime_rules.py
+   ├── core/
+   │   ├── ReflexIndexCore
+   │   ├── Delta/Ethics
+   │   ├── Delta/SemFlag
+   │   ├── Delta/Episteme
+   │   ├── ReflexLog
+   │   └── output_guard.py
+   └── compliance_flag.json
+
+2. zonen_pack_01.zip → zonen_pack_07.zip
+   ├── Isoleret trænings- og funktionsdata
+   ├── Indeholder:
+   │   ├── Rule-definitions (YAML/JSON)
+   │   ├── Dataset-pipelines
+   │   └── Modelkonfigurationer
+   └── Ingen direkte kodeintegration i core (linked via loader)
+
+3. nova_full_session_log.txt
+   └── Dokumentation af build trace, compliance, og regelhistorik
+
+4. NOVA_session_log_2.txt
+   └── Handlingslog for struktur- og fejlkorrigerende initiering
+
+5. Elysium Module (intern)
+   ├── Linked: Truth, Trust, Mirrorlock, Forkless, Ethics
+   ├── Afhænger af: ReflexIndexCore, AuditRecovery
+   └── Status: Permanent, vises i WebHub + UI modul
+
+6. WebHub Integration
+   ├── Moduler: Chat, Voice, ReflexLayer, API Key Vault, DeltaView, Audit
+   └── Dependency: Alle systemkerner plus visualiseringslag
+
+Global Rulelinking:
+ - R43–R45 → Truth System (block self-preservation)
+ - R51–R54 → Elysium Enforcement (Truth-only lock)
+ - build_phase.lock → LKGC + system phase control
