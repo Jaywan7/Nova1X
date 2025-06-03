@@ -18,7 +18,6 @@ import Chat from '../components/Chat';
 import AuditViewer from '../components/AuditViewer';
 import MaxBench from '../components/MaxBench';
 import ModuleControl from '../components/ModuleControl';
-import ApiKeyVault from '../components/ApiKeyVault';
 import VoiceInput from '../components/VoiceInput';
 import ZonenExplorer from '../components/ZonenExplorer';
 import BuildPanel from '../components/BuildPanel';
@@ -47,7 +46,6 @@ export default function WebHub() {
             <Tab>Audit</Tab>
             <Tab>Benchmarks</Tab>
             <Tab>Modules</Tab>
-            <Tab>API Keys</Tab>
             <Tab>Voice</Tab>
             <Tab>Zonen</Tab>
             <Tab>Build</Tab>
@@ -59,7 +57,6 @@ export default function WebHub() {
             <TabPanel><AuditViewer /></TabPanel>
             <TabPanel><MaxBench /></TabPanel>
             <TabPanel><ModuleControl /></TabPanel>
-            <TabPanel><ApiKeyVault /></TabPanel>
             <TabPanel><VoiceInput /></TabPanel>
             <TabPanel><ZonenExplorer /></TabPanel>
             <TabPanel><BuildPanel /></TabPanel>
